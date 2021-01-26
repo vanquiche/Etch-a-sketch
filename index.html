@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Etch-a-Sketch Game</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo">
+  </head>
+
+<body>
+
+  <div id='wrapper' style='margin-top:50px'>
+    <h3 id='title'>Etch-a-Sketch 2000</h3>
+    <div id='container'>
+    </div>
+    <div id='btnContainer'>
+      <button class='btn' id='resetGrid'>RST</button>
+      <button class='btn' id='clearBtn'>CLR</button>
+      <button class='btn red' id='redBtn' data-color='red' value='#EF6461'>R</button>
+      <button class='btn' id='greenBtn' data-color='green' value='#7DDE92'>G</button>
+      <button class='btn' id='blueBtn' data-color='blue' value='#3C91E6'>B</button>
+      <button class='btn' id='expandBtn'>X</button>
+      <input class='textfield' type='text' id='range' value='16' size='1'>
+    </div>
+    <div id='sliderContainer'>
+      <input id='rowRange' class='slider' name='rowRange' type='range' min='16' max='100' step='4' value='16'>
+    </div>
+  </div>
+
+  <script src='script.js'>
+  </script>
+</body>
+
+</html>
